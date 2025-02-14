@@ -25,7 +25,7 @@ const LoginSignup = () => {
             courses: checked
                 ? [...prevState.courses, value]
                 : prevState.courses.filter((course) => course !== value),
-        })); -
+        }));
     };
 
     return (
